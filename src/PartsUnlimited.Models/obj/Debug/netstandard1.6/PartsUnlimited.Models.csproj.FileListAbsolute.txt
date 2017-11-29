@@ -7,3 +7,12 @@ C:\Repos\Intergen\ghpu_intergen_24thjuly17\PartsUnlimited\src\PartsUnlimited.Mod
 C:\Repos\Intergen\ghpu_intergen_24thjuly17\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.dll
 C:\Repos\Intergen\ghpu_intergen_24thjuly17\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.pdb
 C:\Repos\Intergen\ghpu_intergen_24thjuly17\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.csprojResolveAssemblyReference.cache
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\bin\Debug\netstandard1.6\PartsUnlimited.Models.deps.json
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\bin\Debug\netstandard1.6\PartsUnlimited.Models.dll
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\bin\Debug\netstandard1.6\PartsUnlimited.Models.pdb
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.csproj.CoreCompileInputs.cache
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.AssemblyInfoInputs.cache
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.AssemblyInfo.cs
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.dll
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.pdb
+E:\OneDrive\ObjectSharp\Presentations\17-11-TeamNight\PartsUnlimited\src\PartsUnlimited.Models\obj\Debug\netstandard1.6\PartsUnlimited.Models.csprojResolveAssemblyReference.cache

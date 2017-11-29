@@ -26,7 +26,8 @@ namespace PartsUnlimited.Models
             if (env.IsDevelopment())
             {
                 // For more details on using the user secret store see http://go.microsoft.com/fwlink/?LinkID=532709
-                builder.AddUserSecrets();
+                //builder.AddUserSecrets();  // <---- this was rmoved in .net core 2.0  https://github.com/aspnet/Announcements/issues/223
+                builder.AddUserSecrets<Startup>();
 
                 // This will push telemetry data through Application Insights pipeline faster, allowing you to view results immediately.
                 builder.AddApplicationInsightsSettings(developerMode: true);
@@ -41,15 +42,11 @@ namespace PartsUnlimited.Models
             var sqlConnectionString = Configuration[ConfigurationPath.Combine("Data", "DefaultConnection", "ConnectionString")];
             if (!String.IsNullOrEmpty(sqlConnectionString))
             {
-                services.AddEntityFramework()
-                      .AddEntityFrameworkSqlServer()
-                      .AddDbContext<PartsUnlimitedContext>(options =>
+                services.AddDbContext<PartsUnlimitedContext>(options =>
                       {
                           options.UseSqlServer(sqlConnectionString);
                       });
             }
-
-
         }
 
         //Configure is required by 'ef migrations add' command.

@@ -1,6 +1,9 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.MicrosoftAccount;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 
 namespace PartsUnlimited.Security
@@ -11,20 +14,11 @@ namespace PartsUnlimited.Security
         {
             if (loginProviders.Azure.Use)
             {
-                app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions()
-                {
-                    ClientId = loginProviders.Azure.ClientId,
-                    Authority = loginProviders.Azure.Authority
-                });
-            }
-
-            if (loginProviders.Facebook.Use)
-            {
-                app.UseFacebookAuthentication(new FacebookOptions()
-                {
-                    AppId = loginProviders.Facebook.Key,
-                    AppSecret = loginProviders.Facebook.Secret
-                });
+                //app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions()
+                //{
+                //    ClientId = loginProviders.Azure.ClientId,
+                //    Authority = loginProviders.Azure.Authority
+                //});
             }
 
             if (loginProviders.Google.Use)
@@ -34,15 +28,6 @@ namespace PartsUnlimited.Security
                     ClientId = loginProviders.Google.Key,
                     ClientSecret = loginProviders.Google.Secret
                 });              
-            }
-
-            if (loginProviders.Twitter.Use)
-            {
-                app.UseTwitterAuthentication(new TwitterOptions() 
-                {
-                    ConsumerKey = loginProviders.Twitter.Key,
-                    ConsumerSecret = loginProviders.Twitter.Secret
-                });
             }
 
             if (loginProviders.Microsoft.Use)
@@ -63,11 +48,11 @@ namespace PartsUnlimited.Security
                 //The sample app can then be run via:
                 // k web
 
-                app.UseMicrosoftAccountAuthentication(new MicrosoftAccountOptions()
-                {
-                    ClientId = loginProviders.Microsoft.Key,
-                    ClientSecret = loginProviders.Microsoft.Secret
-                });
+                //app.UseMicrosoftAccountAuthentication(new MicrosoftAccountOptions()
+                //{
+                //    ClientId = loginProviders.Microsoft.Key,
+                //    ClientSecret = loginProviders.Microsoft.Secret
+                //});
             }
         }
     }
